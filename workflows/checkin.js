@@ -284,7 +284,7 @@ ${
   }[this.growthTask.todayStatus]
 }`
 }
-
+}
 async function run(args) {
   const cookies = utils.getUsersCookie(env);
   let messageList = [];
